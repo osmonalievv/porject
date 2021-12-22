@@ -1,0 +1,286 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Behance" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="red_button">
+        <item name="android:src">@drawable/shape_radius</item>
+        <item name="android:layout_height">33sp</item>
+        <item name="android:layout_width">190sp</item>
+        <item name="android:background">@color/red</item>
+    </style>
+
+    <style name="new_voz">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">Новые возможности</item>
+        <item name="android:layout_marginTop">5sp</item>
+        <item name="android:layout_marginStart">16sp</item>
+    </style>
+
+    <style name="for_scroll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="for_images_firsts">
+        <item name="android:layout_marginStart">16sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="for_images_others">
+        <item name="android:layout_marginStart">8sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="for_text_1">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_marginTop">3sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="category">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">Категории</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginStart">16sp</item>
+        <item name="android:layout_marginTop">5sp</item>
+    </style>
+
+    <style name="for_tex_category">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">Illustrator</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="for_images_cat">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginStart">22sp</item>
+
+    </style>
+
+    <style name="for_images_cat_2">
+        <item name="android:layout_marginTop">13sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginStart">16sp</item>
+        Illustration
+    </style>
+
+    <style name="for_images_cat_3">
+        <item name="android:layout_marginTop">13sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginStart">22sp</item>
+
+    </style>
+
+
+    <style name="for_tex_category_all_1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="for_tex_category_all_2">
+        <item name="android:layout_width">wrap_content</item>f
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="live">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">Adobe live</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginStart">16sp</item>
+        <item name="android:layout_marginTop">17sp</item>
+    </style>
+
+    <style name="notification">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">Уведомления</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12sp</item>
+        <item name="android:layout_marginStart">12sp</item>
+    </style>
+
+    <style name="messages">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">Сообщения</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12sp</item>
+        <item name="android:layout_marginStart">12sp</item>
+    </style>
+
+    <style name="show_all1">
+        <item name="android:textColor">@color/percent_70</item>
+        <item name="android:text">показать все</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12sp</item>
+        <item name="android:layout_marginStart">12sp</item>
+    </style>
+
+    <style name="notification_main">
+        <item name="android:textColor">@color/percent_70</item>
+        <item name="android:text">Нет уведомлений</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40sp</item>
+    </style>
+
+    <style name="no_messages">
+        <item name="android:textColor">@color/percent_70</item>
+        <item name="android:text">Нет сообщений</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40sp</item>
+    </style>
+
+    <style name="notification_text">
+        <item name="android:textColor">@color/percent_70</item>
+        <item name="android:text">Вы будете получать уведомления, когда ваши проекты оценивают,
+            комментируют или добавляют в коллекцию
+        </item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40sp</item>
+    </style>
+
+    <style name="messages_text">
+        <item name="android:textColor">@color/percent_70</item>
+        <item name="android:text">Получите новые возможности и
+            поддерживайте свзяь с авторами
+        </item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40sp</item>
+    </style>
+
+    <style name="creat_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">Создать проект</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40sp</item>
+    </style>
+
+    <style name="for_medium_text">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="creat_message">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">Создать новое сообщение</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40sp</item>
+    </style>
+
+    <style name="for_text_in_settings">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="for_line_in_setting">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">45sp</item>
+        <item name="srcCompat">@drawable/ic_line_3line</item>
+    </style>
+
+    <style name="for_nav_bar">
+        <item name="android:layout_height">36sp</item>
+        <item name="iconSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="labelVisibilityMode">unlabeled</item>
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@drawable/nav_bar_select</item>
+    </style>
+
+    <style name="for_story">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">11sp</item>
+        <item name="android:background">@drawable/circle</item>
+    </style>
+
+    <style name="text_story">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">7sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">3sp</item>
+
+    </style>
+
+    <style name="for_scrolll">
+        <item name="android:layout_marginTop">15sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+
+    </style>
+</resources>

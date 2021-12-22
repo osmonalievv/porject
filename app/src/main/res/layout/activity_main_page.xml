@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_page">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="12sp"
+        android:background="@color/white"
+        android:contentDescription="@string/for_images"
+        android:src="@drawable/sharpe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/notification"
+        app:layout_constraintStart_toStartOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="@+id/imageButton7" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/notification_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="@+id/imageButton7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/notification_text"
+        android:layout_width="370sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/show_all1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="@+id/imageButton7" />
+
+    <Button
+        android:id="@+id/imageView3"
+        style="@style/creat_text"
+        android:layout_width="170sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/creat_button"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_marginStart="12sp"
+        android:layout_marginEnd="12sp"
+        android:background="@color/white"
+        android:contentDescription="@string/for_images"
+        android:src="@drawable/sharpe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/messages"
+        app:layout_constraintStart_toStartOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+    <TextView
+        android:id="@+id/tetx_show_all"
+        style="@style/show_all1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+    <TextView
+        android:id="@+id/textVie1"
+        style="@style/no_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton8"
+        app:layout_constraintStart_toStartOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/messages_text"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton8"
+        app:layout_constraintStart_toStartOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/textVie1" />
+
+    <Button
+        android:id="@+id/imageView14"
+        style="@style/creat_message"
+        android:layout_width="170sp"
+        android:layout_height="40sp"
+        android:background="@drawable/creat_button"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton8"
+        app:layout_constraintStart_toStartOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        style="@style/for_nav_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/nav_bar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
