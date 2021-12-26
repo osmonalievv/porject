@@ -8,7 +8,7 @@
     <string name="under_5">Portrait Study in Adobe Fresco with Anika Aggarwal</string>
     <string name="graphic_design">Graphic Design</string>
     <string name="photography">Photography</string>
-    <string name="ui_ux">UI/UX</string>
+    <string name="ui_ux1">UI/UX</string>
     <string name="fresco">Fresco</string>
     <string name="photoshop">Photoshop</string>
     <string name="motion">Motion</string>
@@ -20,7 +20,7 @@
     <string name="profile">profile</string>
     <string name="photoshop_daily_creative_challenge_welcome">Photoshop Daily Creative Challenge - Welcome</string>
     <string name="n_text_live">Illustrator Daily Creative Challenge - Welcome</string>
-    <string name="profile1">profile1</string>
+    <string name="profile1">profile!</string>
     <string name="work">Работы</string>
     <string name="info">Инфо</string>
     <string name="grates">Оценки</string>
@@ -45,12 +45,19 @@
     <string name="add">Добавить</string>
     <string name="adobe_live">Adobe live</string>
     <string name="jack">Jack Watson</string>
-    <string name="sarah">Sarah...</string>
-    <string name="graphic">#Graphic...</string>
-    <string name="odari_yo">Odari Yo...</string>
+    <string name="sarah">Sarah…</string>
+    <string name="graphic">#Graphic…</string>
+    <string name="odari_yo">Odari Yo…</string>
     <string name="change">Изменить порядок</string>
     <string name="create">Создать проект</string>
     <string name="add_instr">Добавтье содержимое в проект, используя инструменты ниже</string>
-    <string name="best">Лучшее</string>
+    <string name="best1">Лучшее</string>
     <string name="further">Далее</string>
+    <string name="best">Лучшее</string>
+    <string name="photo">Фотография</string>
+    <string name="ui_ux">UI/UX</string>
+    <string name="archi">Архитектура</string>
+    <string name="grap">Графический дизайн</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -12,4 +12,6 @@
     <color name="red">#CB3030</color>
     <color name="search_color">#21000000</color>
     <color name="category_search">#21000000</color>
+    <color name="back">#D2D3DD</color>
+    <color name="prok">#00FFFFFF</color>
 </resources>

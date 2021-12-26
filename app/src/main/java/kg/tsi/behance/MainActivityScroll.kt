@@ -1,30 +1,59 @@
 package kg.tsi.behance
 
-import android.graphics.drawable.Icon
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import kg.tsi.behance.fragment.NotificationsFragment
+import kg.tsi.behance.fragment.TvFragment
+import kg.tsi.behance.fragment.categoryFragment
+import kg.tsi.behance.fragment.profileFragment
+
+    private val dashboardFragment = profileFragment()
+    private val settingsFragment = TvFragment()
+    private val notification = NotificationsFragment()
+    private val category = categoryFragment()
 
 class MainActivityScroll : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
+
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_scroll)
+        replaceFragment(settingsFragment)
 
-        val bottomNav = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
-        bottomNav.setOnNavigationItemSelectedListener {
-            when (it.itemId) {
-                R.id.home -> {
-                    .currentItem = 0
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.prof -> {
-                    main_view_pager.currentItem = 1
-                    return@OnNavigationItemSelectedListener true
-                }
+        val bottom = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        bottom.setOnNavigationItemReselectedListener {
+            when (it.itemId){
+                R.id.prof->replaceFragment(dashboardFragment)
+                R.id.tralation->replaceFragment(settingsFragment)
+                R.id.notifications->replaceFragment(notification)
+                R.id.search ->  replaceFragment(category)
+
+
+
+
+        }
+            true
+        }
+
+
+
             }
-            false
+private fun replaceFragment(fragment: Fragment){
+    if (fragment !=null){
+        val transaction= supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.fragment, fragment)
+        transaction.commit()
+
+
+    }
+
+
         }
 
     }
-}
+
 

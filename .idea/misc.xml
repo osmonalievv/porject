@@ -4,13 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/arrow.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/class_s.xml" value="0.21875" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/component_3turn.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/creat_button.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/for_scroll.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/group_24others.xml" value="0.21875" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/ic_line_3line.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/nav_bar_select.xml" value="0.21875" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/scrol_images.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/seacrh_cat.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/search.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/shape_radius.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/sharpe.xml" value="0.37864583333333335" />
@@ -20,15 +23,20 @@
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/vector.xml" value="0.21875" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/vector__3_.xml" value="0.21875" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/drawable/vector__5_.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_activitycategory.xml" value="0.264" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_activityproject.xml" value="0.2" />
-        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_grates.xml" value="0.2" />
-        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_info.xml" value="0.536" />
-        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_page.xml" value="0.176" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_grates.xml" value="0.4" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_info.xml" value="1.0" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_page.xml" value="0.22" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_pfofile.xml" value="0.264" />
-        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_scroll.xml" value="0.176" />
-        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_settings.xml" value="0.4" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_scroll.xml" value="0.33" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/activity_main_settings.xml" value="1.0" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/fragment_category.xml" value="0.3625" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/fragment_notifications.xml" value="0.3625" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/fragment_profile.xml" value="0.3625" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/layout/fragment_tv.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/menu/nav_2.xml" value="0.3625" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/behance2/app/src/main/res/menu/nav_bar.xml" value="0.20260416666666667" />
       </map>

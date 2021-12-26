@@ -419,15 +419,11 @@
             </HorizontalScrollView>
 
 
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        style="@style/for_nav_bar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/nav_bar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

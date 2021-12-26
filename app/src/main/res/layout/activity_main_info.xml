@@ -127,12 +127,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        style="@style/for_nav_bar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/nav_bar" />
 
     <ImageView
         android:contentDescription="@string/for_images"
@@ -141,7 +135,7 @@
         android:layout_height="10dp"
         android:layout_marginStart="40sp"
         android:layout_marginBottom="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:srcCompat="@drawable/geo" />

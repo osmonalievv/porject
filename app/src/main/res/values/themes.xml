@@ -281,6 +281,18 @@
         <item name="android:layout_height">wrap_content</item>
 
 
+    </style>
+
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="cornerRadius">15sp</item>
+    </style>
+    <style name="for_image_scrol">
+
+
+
+
 
     </style>
 </resources>
